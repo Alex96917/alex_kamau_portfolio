@@ -1,142 +1,72 @@
-# 👨‍💻 Alex Kamau | Personal Portfolio Website
+# Alex Kamau — Software Project Portfolio
 
-### Aspiring Software Engineer | Full-Stack Developer | Tech Enthusiast
+A responsive static portfolio built with plain HTML, CSS, and JavaScript, using the palette:
+- Forest green `#00412E`
+- Sage green `#96BF8A`
+- Soft grey `#E8EAE5`
+- White `#FFFFFF`
 
-Welcome to my personal portfolio website! 🚀
+## Run locally
 
-This project showcases my journey as a Computer Programming student, my technical skills, selected software development projects, and my passion for building digital solutions that solve real-world problems.
+1. Extract the ZIP.
+2. Open `index.html` in a browser, or use VS Code with the Live Server extension.
+3. The gallery, filters, search, sort, mobile navigation, and project detail modals work without a backend.
 
-The portfolio provides a central place to explore my work, learn more about me, and get in touch for collaborations, internships, and other professional opportunities.
+## Customize projects
 
----
+Project content lives in `script.js` in the `projects` array. Update each item’s:
+- `description`, `details`, `technologies`, and `status`
+- `demo` with a verified live URL
+- `repository` with a verified public GitHub repository URL
+- `screenshot` workflow (see below)
 
-## 🌐 Live Demo
+Only add links you have checked and have permission to share. The portfolio currently includes the known Alexis Digital Innovations link and your GitHub profile. Other repositories are intentionally not guessed.
 
-🔗 **Portfolio Website:** [View My Portfolio](https://alexkamaukanini.vercel.app/)
+## Project screenshot notes
 
-> If the link changes, replace it with your current deployed portfolio URL.
+The gallery now uses screenshot previews where available:
+- SotePay, Student Portal, and Rentivara use screenshots supplied during the project conversation.
+- Inventory Management System, ACK Church ERP, EventHub, AfyaLink Dashboard, and Drive Hub use prototype preview crops from a generated portfolio concept image.
+- Alexis Digital Innovations links to its known live website. Other projects do not claim a live demo unless a verified URL is added.
 
-## ✨ Features
+Prototype images are visual concepts, not proof that the shown modules or sample figures are functional. Replace them with clean screenshots from the running application as each project is implemented. Project screenshot paths are set using the `screenshot` field in the `projects` array in `script.js`.
 
-- **Responsive Design** — adapts to desktop, tablet, and mobile screens.
-- **Home Section** — introduces me and my development interests.
-- **About Me** — highlights my background, learning journey, and career goals.
-- **Projects Showcase** — presents selected projects and their descriptions.
-- **Skills Section** — displays my technical skills and tools.
-- **Services Section** — highlights areas where I can contribute.
-- **Contact Form** — allows visitors to send inquiries.
-- **Interactive Interface** — includes navigation and project interactions.
-- **Deployment Ready** — designed for hosting on platforms such as Vercel.
+## Before publishing
 
-## 🛠️ Technologies Used
+- Verify the Alexis Digital Innovations deployment still works.
+- Add each project's actual GitHub repository URL only after verifying it.
+- Replace concept or planning statuses as projects progress.
+- Add your professional email address and a working contact method.
+- If you add a CV, place it in an appropriate folder and link to the real file.
+- Test keyboard navigation, mobile layout, and external links.
+- Use fictional data in screenshots for sensitive domains such as church, finance, or health systems.
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Website structure |
-| CSS3 | Styling, layout, and responsiveness |
-| JavaScript | Interactivity and dynamic behavior |
-| Formspree | Contact form submissions |
-| Git & GitHub | Version control and source code management |
-| Vercel | Website deployment |
+## Deploy
 
-## 📂 Project Structure
+This is a static website and can be hosted on GitHub Pages, Netlify, or Vercel. It does not need PHP or MySQL unless you later add dynamic features such as a contact-form backend or admin-managed project data.
 
-```text
-alex_kamau_portfolio/
-├── index.html
-├── styles.css
-├── script.js
-├── README.md
-└── assets/
-    └── projects/
-        └── project screenshots and images
-```
 
-*The structure above is representative; your actual folders and filenames may differ.*
+## Contact form and social links
 
-## 🚀 Run Locally
+- The contact section includes email, phone, WhatsApp, Instagram, Facebook, LinkedIn, and GitHub links.
+- The current contact form uses `mailto:` to open the visitor's email app with a prefilled message. It does not deliver messages by itself or store submissions.
+- For a form that submits directly from the site, connect a backend (for example PHP mail with secure hosting) or a trusted form service, add server-side validation and spam protection, and test delivery before publishing.
+- Review the phone and social URLs before deploying publicly.
 
-Follow these steps to run the project on your computer.
+## Services section
 
-### 1. Clone the repository
+The services section describes website development, PHP/MySQL application work, UI implementation, and basic website maintenance. Keep the wording aligned with your current skills and the scope you can confidently deliver.
 
-```bash
-git clone https://github.com/alex96917/alex-kamau-portfolio.git
-```
 
-### 2. Open the project folder
+## Latest portfolio updates
 
-```bash
-cd alex-kamau-portfolio
-```
+- The layout includes responsive CSS breakpoints for desktop, tablet, and mobile widths, with a collapsible navigation menu on small screens and single-column project cards on mobile.
+- Added the user-supplied Alexis Digital Innovations screenshot and linked its card to https://alexis-digital-innovation.vercel.app/#service.
+- Replaced the generic Drive Hub preview with the user-supplied DriveHub screenshot and linked the project to https://drivehub-two.vercel.app/.
+- Added a Jirani Mwema SACCO dashboard prototype screenshot. Figures and member records in the image are illustrative demo data, not real SACCO records.
+- Prototype previews should remain clearly identified as concepts; the DriveHub and Alexis links open their deployed websites.
 
-### 3. Launch the website
 
-Open `index.html` in your browser, or use the **Live Server** extension in Visual Studio Code.
+## Contact form setup
 
-No Node.js installation is required for the basic static website.
-
-## 📬 Contact Form Configuration
-
-The portfolio uses Formspree to process contact form submissions.
-
-To configure it for your own use:
-
-1. Create an account at [Formspree](https://formspree.io/).
-2. Create a form and obtain its endpoint.
-3. Add the endpoint to the contact form in `index.html`.
-4. Submit a test inquiry and confirm that it appears in your Formspree dashboard.
-
-Never publish passwords, private API keys, or other secrets in a public repository.
-
-## 📸 Screenshots
-
-Add screenshots of your actual portfolio website here to help visitors preview the design.
-
-```markdown
-![Portfolio Homepage](assets/portfolio-homepage.png)
-```
-
-Replace the example image path with the actual screenshot location in your repository.
-
-## 🎯 Project Goals
-
-This portfolio is part of my journey toward becoming a skilled software engineer. It helps me:
-
-- Showcase my programming skills and completed projects.
-- Apply concepts learned in Computer Programming.
-- Build a professional online presence.
-- Connect with developers and potential collaborators.
-- Continuously improve my web development and problem-solving skills.
-
-## 🔮 Future Improvements
-
-- Add more full-stack projects.
-- Improve accessibility and performance.
-- Expand project documentation and live demos.
-- Enhance contact form validation and feedback.
-- Add more interactive features as my skills grow.
-
-## 🤝 Contributions
-
-This is a personal portfolio project, but suggestions, feedback, and ideas for improvement are welcome.
-
-Feel free to open an issue or reach out to me.
-
-## 👨‍💻 About Me
-
-I'm Alex Kamau, a Computer Programming student passionate about software development, web technologies, and creating practical digital solutions.
-
-I'm continuously learning, building projects, and developing my skills in preparation for a career in software engineering and full-stack development.
-
-## 📫 Connect With Me
-
-- **GitHub:** [@alex96917](https://github.com/alex96917)
-- **Email:** [alexkamaukanini@gmail.com](mailto:alexkamaukanini@gmail.com)
-- **Portfolio:** [Visit My Website](https://alexkamaukanini.vercel.app/)
-
----
-
-⭐ If you find my work interesting, feel free to explore my repositories and follow my development journey.
-
-**Built with passion, curiosity, and a commitment to continuous learning.** 💚
+The contact form submits asynchronously to Formspree using the endpoint configured in `index.html`. Confirm that the endpoint belongs to your Formspree account and complete any email verification Formspree requests before publishing. The form uses client-side validation, a disabled/loading button, and success/error feedback. The site is static HTML/CSS/JavaScript and can be deployed to Vercel without a PHP backend.
