@@ -70,3 +70,11 @@ The services section describes website development, PHP/MySQL application work, 
 ## Contact form setup
 
 The contact form submits asynchronously to Formspree using the endpoint configured in `index.html`. Confirm that the endpoint belongs to your Formspree account and complete any email verification Formspree requests before publishing. The form uses client-side validation, a disabled/loading button, and success/error feedback. The site is static HTML/CSS/JavaScript and can be deployed to Vercel without a PHP backend.
+
+
+## Recently added live projects
+
+- **Safari Emerald Travel** — https://safariemeraldtravel.vercel.app/ — screenshot: `assets/projects/safari-emerald-travel-screenshot.png`
+- **Azura Homes** — https://azura-homes.vercel.app/ — screenshot: `assets/projects/azura-homes-screenshot.png`
+
+Both projects are included in the gallery data in `script.js`. Their detail modals link to the live deployments. The screenshots are supplied browser captures and are stored locally in the project, so the portfolio does not rely on external image URLs for these previews.
